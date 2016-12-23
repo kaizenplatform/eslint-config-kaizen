@@ -4,7 +4,7 @@ ESLint shareable config for Kaizen Platform
 
 ## Installation
 
-1. This config is based on `eslint-config-airbnb`. Run this command to install `eslint-config-airbnb` and its dependencies.
+1. This config is based on [`eslint-config-airbnb`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb). Install `eslint-config-airbnb` and its dependencies first by the following command:
 
   ```sh
   (
@@ -13,7 +13,7 @@ ESLint shareable config for Kaizen Platform
   )
   ```
 
-2. Then, install `eslint-config-kaizen`.
+2. Then, install `eslint-config-kaizen`
 
   ```sh
   $ npm install --save-dev kaizenplatform/eslint-config-kaizen
@@ -21,10 +21,14 @@ ESLint shareable config for Kaizen Platform
 
 ## Usage
 
-Add the ESLint config to your `.eslintrc`:
+Add `"extends": "kaizen"` to your `.eslintrc`
 
 ```json
 {
   "extends": "kaizen"
 }
 ```
+
+## License
+
+Code released under [the MIT license](https://github.com/kaizenplatform/eslint-config-kaizen/blob/master/LICENSE.md).
