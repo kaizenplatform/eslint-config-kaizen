@@ -19,7 +19,7 @@ ESLint shareable config for Kaizen Platform
   ```sh
   (
     export PKG=eslint-config-airbnb;
-    yarn info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add --dev "$PKG@latest"
+    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add --dev "$PKG@latest"
   )
   ```
 
