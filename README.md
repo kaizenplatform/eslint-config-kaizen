@@ -1,3 +1,5 @@
+# *Deprecated*
+
 # eslint-config-kaizen
 
 ESLint shareable config for Kaizen Platform
